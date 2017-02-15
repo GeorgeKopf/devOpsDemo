@@ -11,7 +11,7 @@ public class LoginBeanTest extends TestCase {
        LoginBean myTestValidate = new LoginBean();
        myTestValidate.setPassword("admin");
        assertEquals("admin password will return true", true, myTestValidate.validate());
-       myTestValidate.setPassword("admin");
+       myTestValidate.setPassword("dfasdf");
        assertEquals("junk password will return false", false, myTestValidate.validate());
     }
 }
