@@ -42,6 +42,6 @@
   </repositories>
 
   <build>
-    <finalName>test</finalName>
+    <finalName>devOpsDemo</finalName>
   </build>
 </project>
