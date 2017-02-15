@@ -1,4 +1,4 @@
-<h1>"Please enter username and password."<\h>
+<h1>"Please enter username and password."<\h1>
 <form action="ControllerServlet" method="post">
 Name:<input type="text" name="name"><br>
 Password:<input type="password" name="password"><br>
