@@ -8,6 +8,7 @@ package com.kopf;
         import javax.servlet.http.HttpServletResponse;
 
 public class ControllerServlet extends HttpServlet {
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html");
