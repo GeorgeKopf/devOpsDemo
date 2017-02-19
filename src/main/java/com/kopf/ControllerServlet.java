@@ -12,7 +12,7 @@ public class ControllerServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html");
-        PrintWriter out=response.getWriter();
+        //PrintWriter out=response.getWriter();
 
         String name=request.getParameter("name");
         String password=request.getParameter("password");
